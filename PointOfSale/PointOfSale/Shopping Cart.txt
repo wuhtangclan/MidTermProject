@@ -1,0 +1,29 @@
+Shopping Cart
+
+//Property
+
+public list of items
+
+//Constructor
+this.List = 
+
+//Methods
+
+addToCart()
+	add item to shoppingCart list
+
+checkout()
+	subtract from quantity based of cart total
+
+shoppingTotals()
+	subTotal = total price of all items purchased
+	salesTax = add to subtotal 0.06
+	grandTotal = subTotal + salesTax
+	Print
+
+receipt()
+	itemizedList
+	shoppingTotal //call checkout 
+
+
+
