@@ -1,0 +1,30 @@
+nameSpace CandyStore
+
+public class Candy
+{
+
+//Properties
+
+public string Name
+public decimal Price
+public int Quantity
+
+//Constructors
+
+public Candy(string name, decimal price, int quantity)
+this.Name = name;
+this.Price = price;
+this.Quantity = quantity;
+
+//Methods
+purchase void purchase(int amountPurchased)- 
+{
+Subtract amountPurchased from Quantity
+}
+
+public string LineTotal(int amountPurchased, decimal price)
+{
+Print out a string with with the amountPurchased, price, and the total price
+}
+
+}
