@@ -1,0 +1,11 @@
+// Store
+Properties
+	List of items
+	
+
+//Constructor
+	Add items to list
+
+inventory(): All available items, prices, quantities
+remove(): Locate item and subtract quantity
+
